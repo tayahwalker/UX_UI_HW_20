@@ -1,27 +1,33 @@
-/*Week 17, Tweaked CSS*/
+/*Tweaked CSS, Week 20*/
 header .inline-block {
     display: inline-block;
     vertical-align: top;
     margin-top: 0;
-    list-style-type: none;
     overflow: hidden;
     background-color:#C3D9AD;
-    padding: 1%;
-    width: 30%;
-	height: auto;
-	margin: 0;
+    padding: 0;
+    width: 20rem;
+	height: fit-content;
+	margin: 0 flex-end;
 
  }
  
  footer .inline-block { 
     display: inline-block;
     vertical-align: top;
-    margin-top: 1.5rem;
+    margin-top: 3.7rem;
+    overflow: hidden;
+    background-color:#C3D9AD;
+    padding: 0;
+    width: 20rem;
+	height: fit-content;
+	margin: 0 flex-end;
  }
  
  header .logo {
-    width: 8%;
-    padding: 1%;
+    width: 3rem;
+    height: 4rem;
+    padding: 0%;
  }
  
  .nav {
@@ -33,27 +39,17 @@ header .inline-block {
     background-color: #738F57;
  }
  
- .heroImg{ 
-    height: 600px;
-    padding: 25px;
- }
- 
- .content{
-    width: 50px;
-    margin: 0 auto;
- }
- 
  ul.footer{
    background-color: #C3D9AD; 
    display: inline-block;
    vertical-align: top;
    margin-top: 1rem;
-   
- 
  }
  
  footer .logo{
-    width: 10%;
+    width: 3rem;
+     height: 4rem;
+    padding: 0%;
  }
  
  .navigation{
@@ -61,17 +57,36 @@ header .inline-block {
     flex-direction: row;
     justify-content: space-between;
  }
+
+ h1{
+   font-family: clash display;
+   font-weight: 400;
+   text-align: center;
+   font-display: auto;
+}
+
+h3{
+   font-family: archivo, avenir;
+   font-weight: 200;
+   text-align: center;
+}
  
+h6{
+   padding: 1%;
+}
+p{
+   font-family: avenir;
+   width: fit-content;
+   text-align: center;
+}
+
+.list-group{
+text-align: center;
+}
  /*Week 18 CSS*/
  .flexContainer{
     display: flex;
     justify-content: center;
- }
- h1{
-    font-family: clash display;
-    font-weight: 400;
-    text-align: center;
-    font-display: auto;
  }
  
  img{
@@ -110,21 +125,15 @@ header .inline-block {
     font-weight: 100;
     background-color: #50633E;
     padding: 1%;
-    
- 
  }
- 
- h3{
-    font-family: archivo, avenir;
-    font-weight: 200;
- }
- 
+
  #wordCloud{
     max-width: 100%;
     max-height: fit-content;
  }
  
  /*Week 19 CSS*/
+ 
  button{
      width: fit-content;
      border-style: groove;
@@ -137,20 +146,27 @@ header .inline-block {
      padding: 1%;
      font-family: avenir;
  }
-  p{
-     font-family: avenir;
-     width: fit-content;
-     text-align: center;
-  }
- 
+
+
+  /* GY
+
+ .heroImg{ 
+    height: 600px;
+    padding: 25px;
+ }
+
+   .content{
+    width: 50px;
+    margin: 0 auto;
+ }
+
+
   .signature{
      width: 130px;
      justify-content: flex-end;
   }
 
-  /*Week 20 CSS*/
-
-
+  */
  
   /*Media Querey Week 18*/
  
