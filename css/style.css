@@ -1,3 +1,161 @@
+/*Week 17 CSS*
+header .inline-block {
+   display: inline-block;
+   vertical-align: top;
+   margin-top: 0;
+}
+
+footer .inline-block { 
+   display: inline-block;
+   vertical-align: top;
+   margin-top: 1.5rem;
+}
+
+header .logo {
+   width: 4%;
+   padding: 1%;
+}
+
+.nav {
+   width: 73%;
+   padding: 1%;
+}
+
+ul {
+   list-style-type: none;
+   overflow: hidden;
+   background-color:#C3D9AD;
+   padding: 0;
+   margin: 0;
+}
+
+li {
+   float: left;
+   margin: 0;
+   padding: 15px 15px;
+
+}
+
+li:hover {
+   background-color: #738F57;
+}
+
+.heroImg{ 
+   height: 600px;
+   padding: 25px;
+}
+
+.content{
+   width: 50px;
+   margin: 0 auto;
+}
+
+ul.footer{
+  background-color: #C3D9AD; 
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1rem;
+  
+
+}
+
+footer .logo{
+   width: 10%;
+}
+
+.navigation{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}/
+
+/*Week 18 CSS*/
+.flexContainer{
+   display: flex;
+   justify-content: center;
+}
+h1{
+   font-family: clash display;
+   font-weight: 400;
+   text-align: center;
+   font-display: auto;
+}
+
+img{
+   max-width: 70%;
+   max-height: 70%;
+   margin: 0%;
+}
+
+.workGrid{
+   display: grid;
+   grid-template-rows: 50% 50%;
+   grid-template-columns: 50% 50%;
+   grid-template-areas: 
+   "prject1 project2"
+   "project3 project4";
+   justify-content: center; 
+   margin: 0%;
+   padding: 0%
+}
+
+.workGrid-Item{
+   margin: 0 auto;
+}
+
+div{
+   font-family: avenir; 
+}
+
+.button{
+   width: fit-content;
+   border-style: groove;
+   border-color: #3D3D3D;
+   border-width: 1px;
+   border-radius: 10px;
+   color: white;
+   font-weight: 100;
+   background-color: #50633E;
+   padding: 1%;
+   
+
+}
+
+h3{
+   font-family: archivo, avenir;
+   font-weight: 200;
+}
+
+#wordCloud{
+   max-width: 100%;
+   max-height: fit-content;
+}
+
+/*Week 19 CSS*/
+button{
+    width: fit-content;
+    border-style: groove;
+    border-color: #3D3D3D;
+    border-width: 1px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 100;
+    background-color: #50633E;
+    padding: 1%;
+    font-family: avenir;
+}
+ p{
+    font-family: avenir;
+    width: fit-content;
+    text-align: center;
+ }
+
+ .signature{
+    width: 130px;
+    justify-content: flex-end;
+ }
+
+
 /*Tweaked CSS, Week 20*/
 header .inline-block {
     display: inline-block;
