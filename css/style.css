@@ -23,6 +23,12 @@ header .inline-block {
 	height: fit-content;
 	margin: 0 flex-end;
  }
+
+ img{
+   max-width: 70%;
+   max-height: 70%;
+   margin: 0%;
+}
  
  header .logo {
     width: 3rem;
@@ -58,19 +64,48 @@ header .inline-block {
     justify-content: space-between;
  }
 
+ .intro{
+   width: 600px;
+   padding-left: 2%;
+ }
+
+ .my-roles{
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   width: 25%;
+   padding-left: 2%;
+
+ }
+
+
  h1{
    font-family: clash display;
    font-weight: 400;
    text-align: center;
    font-display: auto;
+   background-color: #F6D2EC;
 }
 
+h2{
+   font-family: clash display;
+   font-weight: 400;
+   text-align: left
+}
 h3{
-   font-family: archivo, avenir;
+   font-family: avenir;
    font-weight: 200;
    text-align: center;
+   background-color: #C3D9AD;
 }
- 
+
+h5{
+   font-family: avenir;
+   font-weight: 200;
+   text-align: center;
+   background-color: #C3D9AD;
+}
+
 h6{
    padding: 1%;
 }
@@ -81,59 +116,13 @@ p{
 }
 
 .list-group{
+display: flex;
 text-align: center;
+width: 45%;
+margin-left: auto;
+margin-right: auto;
 }
- /*Week 18 CSS*/
- .flexContainer{
-    display: flex;
-    justify-content: center;
- }
- 
- img{
-    max-width: 70%;
-    max-height: 70%;
-    margin: 0%;
- }
- 
- .workGrid{
-    display: grid;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: 
-    "prject1 project2"
-    "project3 project4";
-    justify-content: center; 
-    margin: 0%;
-    padding: 0%
- }
- 
- .workGrid-Item{
-    margin: 0 auto;
- }
- 
- div{
-    font-family: avenir; 
- }
- 
- .button{
-    width: fit-content;
-    border-style: groove;
-    border-color: #3D3D3D;
-    border-width: 1px;
-    border-radius: 10px;
-    color: white;
-    font-weight: 100;
-    background-color: #50633E;
-    padding: 1%;
- }
 
- #wordCloud{
-    max-width: 100%;
-    max-height: fit-content;
- }
- 
- /*Week 19 CSS*/
- 
  button{
      width: fit-content;
      border-style: groove;
@@ -147,29 +136,13 @@ text-align: center;
      font-family: avenir;
  }
 
-
-  /* GY
-
- .heroImg{ 
-    height: 600px;
-    padding: 25px;
- }
-
-   .content{
-    width: 50px;
-    margin: 0 auto;
- }
-
-
-  .signature{
-     width: 130px;
-     justify-content: flex-end;
-  }
-
-  */
+.case-study{
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+}
  
-  /*Media Querey Week 18*/
- 
+
  @media only screen and (max-width: 600px){
     .flexContainer{
         display: flex;
